@@ -23,7 +23,7 @@ body {
   .main-content {
   /*   height: 100vh; */
     background: lightgrey;
-    grid-row: 2 / 4;
+    grid-row: 2 / 3;
   }
   
   main {
