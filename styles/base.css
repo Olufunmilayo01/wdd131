@@ -21,7 +21,7 @@ header {
   background-color: #004db3;
   color: white;
   text-align: center;
-  padding: 20px;
+  padding: 30px;
   font-family: "Nanum Gothic", sans-serif;
 }
 nav {
@@ -30,7 +30,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px;
+  padding: 10px;
 }
 nav a:hover{
   color: #004db3;
