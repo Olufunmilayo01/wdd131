@@ -90,6 +90,7 @@ const temples = [
   },
 ];
 
+
 function createTempleCards(temples) {
   const container = document.getElementById("temple-cards-container"); // Ensure you have a container element in your HTML
 
