@@ -1,11 +1,9 @@
-const mainnav = document.querySelector(".navigation");
-const hambutton = document.querySelector("#menu");
-
-// Add a click event listender to the hamburger button and use a callback function that toggles the list element's list of classes.
-hambutton.addEventListener("click", () => {
-  mainnav.classList.toggle("show");
-  hambutton.classList.toggle("show");
-});
+document.addEventListener('DOMContentLoaded', (event) => {
+    document.getElementById('seeMoreButton').addEventListener('click', () => {
+      window.location.href = 'listings.html';
+    });
+  });
+  
 
 const rentals = [
     {
@@ -41,7 +39,7 @@ const rentals = [
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyQpfw-zHIr9Z5S19YBFbFJfSCnhapUq_cOsAqoVkdUFa71BnaDNw5W1uKPg&s",
     },
     {
-      rentalName: "Serene Rentalss",
+      rentalName: "Serene Rentals",
       location: "calabar, Nigeria",
       price: "$10,500 Per Annum",
       type: "Family Homes",
@@ -101,5 +99,3 @@ const rentals = [
       
       // Call the function with the temples array
       createRentalCards(rentals);
-      
-     
